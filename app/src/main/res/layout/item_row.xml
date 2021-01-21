@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140dp"
+    android:layout_height="218dp"
+    android:layout_margin="5dp"
+    android:background="@color/sg_color_background_dark"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+    <ImageView
+        android:id="@+id/imgPoster1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imgVotes"
+        android:layout_width="37dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/vote" />
+
+    <TextView
+        android:id="@+id/txtVotes1"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="1.2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

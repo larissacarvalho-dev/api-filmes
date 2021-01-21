@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Filmes Populares</string>
+
+    //components item list
+    <string name="votes">Votes</string>
+    <string name="genre">Genre</string>
+    <string name="title">Title</string>
+    <string name="loading">Carregando..</string>
+    <string name="splash">SEJA BEM-VINDO</string>
+</resources>
