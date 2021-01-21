@@ -1,6 +1,6 @@
 # Projeto desenvolvido para fins de estudos
 
-## Aplicação Android feita com a linguagem Java
+## Aplicação Android Nativo com a linguagem Java
 
 - Dependence Injection utilizando Dagger
 - Glide para carregamento de imagens.
